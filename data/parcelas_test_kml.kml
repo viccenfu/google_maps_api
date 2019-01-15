@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="parcelas_test_kml" id="parcelas_test_kml">
+	<SimpleField name="id" type="float"></SimpleField>
+	<SimpleField name="refpar" type="string"></SimpleField>
+	<SimpleField name="parcela" type="string"></SimpleField>
+	<SimpleField name="poligono" type="string"></SimpleField>
+</Schema>
+<Folder><name>parcelas_test_kml</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parcelas_test_kml">
+		<SimpleData name="id">1</SimpleData>
+		<SimpleData name="refpar">01001</SimpleData>
+		<SimpleData name="parcela">001</SimpleData>
+		<SimpleData name="poligono">01</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-0.158819180574547,38.9597519492927 -0.158819180574547,38.9597519492927 -0.158114982840983,38.959356476925 -0.15909303524871,38.958869738673 -0.159875477174891,38.9592854944715 -0.159875477174891,38.9592854944715 -0.158819180574547,38.9597519492927</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parcelas_test_kml">
+		<SimpleData name="id">2</SimpleData>
+		<SimpleData name="refpar">01002</SimpleData>
+		<SimpleData name="parcela">002</SimpleData>
+		<SimpleData name="poligono">01</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-0.158114982840983,38.959356476925 -0.158819180574547,38.9597519492927 -0.158075860744674,38.960461765955 -0.15741078510742,38.9608775124121 -0.157163011830796,38.9605631677548 -0.156850035060323,38.9602386814845 -0.158114982840983,38.959356476925</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parcelas_test_kml">
+		<SimpleData name="id">3</SimpleData>
+		<SimpleData name="refpar">01003</SimpleData>
+		<SimpleData name="parcela">003</SimpleData>
+		<SimpleData name="poligono">01</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-0.15741078510742,38.9608775124121 -0.156302325711997,38.961475777423 -0.155715494267361,38.9609586333876 -0.156850035060323,38.9602386814845 -0.157163011830796,38.9605631677548 -0.15741078510742,38.9608775124121</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parcelas_test_kml">
+		<SimpleData name="id">5</SimpleData>
+		<SimpleData name="refpar">02002</SimpleData>
+		<SimpleData name="parcela">002</SimpleData>
+		<SimpleData name="poligono">02</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-0.158114982840983,38.959356476925 -0.156850035060323,38.9602386814845 -0.156458814097233,38.9597316687122 -0.157306459517263,38.9590117043419 -0.158114982840983,38.959356476925</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parcelas_test_kml">
+		<SimpleData name="id">5</SimpleData>
+		<SimpleData name="refpar">02003</SimpleData>
+		<SimpleData name="parcela">003</SimpleData>
+		<SimpleData name="poligono">02</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-0.156850035060323,38.9602386814845 -0.155715494267361,38.9609586333876 -0.155259069810421,38.9604820463265 -0.155780697761209,38.960025736562 -0.155963267543985,38.9600561573044 -0.156458814097233,38.9597316687122 -0.156850035060323,38.9602386814845</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parcelas_test_kml">
+		<SimpleData name="id">6</SimpleData>
+		<SimpleData name="refpar">02001</SimpleData>
+		<SimpleData name="parcela">001</SimpleData>
+		<SimpleData name="poligono">02</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-0.15909303524871,38.958869738673 -0.158114982840983,38.959356476925 -0.157306459517263,38.9590117043419 -0.157762883974202,38.9581497655449 -0.15909303524871,38.958869738673</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
