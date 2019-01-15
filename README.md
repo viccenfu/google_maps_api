@@ -1,2 +1,2 @@
 # google_maps_api
-Map project using Google Maps API
+Map projects using Google Maps API
